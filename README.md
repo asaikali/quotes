@@ -1,2 +1,2 @@
-# quotes
-Simple Motivational Quotes Apps in Spring
+# golden-app-ops
+
