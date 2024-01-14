@@ -20,6 +20,7 @@
     </properties>
     <modules>
         <module>basic-quotes-in-memory-db</module>
+        <module>basic-quotes-postgres-db</module>
     </modules>
     <dependencyManagement>
         <dependencies>
