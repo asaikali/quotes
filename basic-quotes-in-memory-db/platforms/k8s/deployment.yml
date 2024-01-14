@@ -25,8 +25,8 @@ spec:
           image: basic-quotes-in-memory-db:1
           imagePullPolicy: IfNotPresent
           env:
-          - name: JAVA_TOOL_OPTIONS
-            value: "-XX:MaxRAMPercentage=80"
+            - name: JAVA_TOOL_OPTIONS
+              value: "-XX:MaxRAMPercentage=80"
           resources:
             requests:
               memory: "1024Mi"

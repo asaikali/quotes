@@ -1,2 +1,2 @@
-# basic-quotes-in-memory-db
+# basic-quotes-postgres-db
 

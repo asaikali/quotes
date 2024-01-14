@@ -1,4 +1,5 @@
-CREATE DATABASE quotes
+CREATE
+DATABASE quotes
     WITH
     OWNER = postgres
     ENCODING = 'UTF8'
