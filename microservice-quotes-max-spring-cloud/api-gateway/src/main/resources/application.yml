@@ -10,8 +10,8 @@ spring:
             - Path=/api/message-service/**
           filters:
             - StripPrefix=2
-        - id: billboard-client
-          uri: lb://billboard-client
+        - id: frontend
+          uri: lb://frontend
           predicates:
             - Path=/**
 
@@ -47,9 +47,9 @@ spring:
   cloud:
     discovery:
       client:
+
         simple:
           instances:
-            billboard-client:
-              - uri: "http://localhost:8080"
-            message-service:
-              - uri: "http://localhost:8081"
+            frontend:
+              - uri: "http://localhost:5173"
+

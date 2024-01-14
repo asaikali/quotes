@@ -17,7 +17,7 @@
     <modules>
         <module>config-server</module>
         <module>eureka-server</module>
-        <module>gateway-server</module>
+        <module>api-gateway</module>
         <module>message-service</module>
         <module>billboard-client</module>
     </modules>
