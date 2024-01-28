@@ -5,19 +5,19 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.example</groupId>
-        <artifactId>golden-app-ops</artifactId>
+        <artifactId>microservice-quotes-max-spring-cloud</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>microservice-quotes-max-spring-cloud</artifactId>
+    <artifactId>spring-cloud</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <description>Demo Project showing Spring cloud Integration with Kubernetes</description>
 
     <modules>
-        <module>message-service</module>
-        <module>billboard-client</module>
-        <module>spring-cloud</module>
+        <module>config-server</module>
+        <module>eureka-server</module>
+        <module>api-gateway</module>
     </modules>
 
 </project>
