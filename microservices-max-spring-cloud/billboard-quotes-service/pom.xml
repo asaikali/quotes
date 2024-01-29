@@ -14,7 +14,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>message-service</name>
+    <name>billboard-quotes-service</name>
 
     <dependencies>
         <dependency>

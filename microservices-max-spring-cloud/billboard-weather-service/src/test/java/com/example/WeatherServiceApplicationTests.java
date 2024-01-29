@@ -1,4 +1,4 @@
-package com.example.messageservice;
+package com.example;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -10,9 +10,9 @@ import org.springframework.test.context.TestPropertySource;
         "spring.config.name=config-server",
         "spring.profiles.active=native",
         "spring.cloud.config.import-check.enabled=false"
-      //  "spring.cloud.config.server.native.searchLocations=file:/pathToFile"
+        //  "spring.cloud.config.server.native.searchLocations=file:/pathToFile"
 })
-public class ScQuotesServiceApplicationTests {
+public class WeatherServiceApplicationTests {
 
     @Test
     public void contextLoads() {
