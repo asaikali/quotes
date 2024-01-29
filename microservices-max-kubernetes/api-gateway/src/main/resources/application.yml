@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: gateway-server
+  cloud:
+    gateway:
+      routes:
+        - id: message-service
+          uri: http://localhost:8003
+          predicates:
+            - Path=/api/message-service/**
+          filters:
+            - StripPrefix=2
+        - id: ui
+          uri: http://localhost:5173
+          predicates:
+            - Path=/**
+
+# expose all the spring boot actuators good for demos.
+# NEVER DO THIS in production
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+server:
+  port: 8080
+

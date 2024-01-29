@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: message-service
+server:
+  port: 8003
+
+quotesServiceUrl: http://localhost:8002
+weatherServiceUrl: http://localhost:8001

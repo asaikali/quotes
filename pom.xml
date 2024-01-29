@@ -22,6 +22,7 @@
         <module>basic-quotes-in-memory-db</module>
         <module>basic-quotes-postgres-db</module>
         <module>microservices-max-spring-cloud</module>
+        <module>microservices-max-kubernetes</module>
     </modules>
     <dependencyManagement>
         <dependencies>
