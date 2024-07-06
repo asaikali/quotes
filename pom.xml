@@ -19,8 +19,8 @@
         <spring-cloud.version>2023.0.2</spring-cloud.version>
     </properties>
     <modules>
-        <module>basic-quotes-in-memory-db</module>
-        <module>basic-quotes-postgres-db</module>
+        <module>monolith-standalone</module>
+        <module>monolith-db</module>
         <module>microservices-max-spring-cloud</module>
         <module>microservices-max-kubernetes</module>
     </modules>

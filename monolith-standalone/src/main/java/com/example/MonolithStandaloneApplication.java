@@ -4,9 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BasicQuotesPostgresDbApplication {
+public class MonolithStandaloneApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(BasicQuotesPostgresDbApplication.class, args);
+        SpringApplication.run(MonolithStandaloneApplication.class, args);
     }
 }

@@ -3,7 +3,7 @@
     <option name="ACTIVE_PROFILES" value="local" />
     <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
     <module name="basic-quotes-postgres-db" />
-    <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.BasicQuotesPostgresDbApplication" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.MonolithDbApplication" />
     <method v="2">
       <option name="Make" enabled="true" />
     </method>
