@@ -21,7 +21,7 @@
     <modules>
         <module>monolith-api</module>
         <module>monolith-api-db</module>
-        <module>monolith-ui-api-db</module>
+        <module>monolith-spa-api-db</module>
         <module>microservices-max-spring-cloud</module>
         <module>microservices-max-kubernetes</module>
     </modules>

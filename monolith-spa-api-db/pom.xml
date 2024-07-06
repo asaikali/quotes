@@ -9,7 +9,7 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>monolith-ui-api-db</artifactId>
+    <artifactId>monolith-spa-api-db</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <description>Demo Project showing Spring cloud Integration with Kubernetes</description>
