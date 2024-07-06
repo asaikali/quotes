@@ -19,8 +19,8 @@
         <spring-cloud.version>2023.0.2</spring-cloud.version>
     </properties>
     <modules>
-        <module>monolith-api</module>
-        <module>monolith-api-db</module>
+        <module>monolith-stateless</module>
+        <module>monolith-ui-api-db</module>
         <module>spa-api-db</module>
         <module>microservices-max-spring-cloud</module>
         <module>microservices-max-kubernetes</module>
