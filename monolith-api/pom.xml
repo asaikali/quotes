@@ -9,7 +9,7 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>monolith-standalone</artifactId>
+    <artifactId>monolith-api</artifactId>
     <name>basic-quotes-in-memory-db</name>
     <version>0.0.1-SNAPSHOT</version>
 

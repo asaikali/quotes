@@ -2,8 +2,6 @@
 #
 # docker compose down --volumes
 #
-version: '3.8'
-
 volumes:
   postgres:
   pgadmin:

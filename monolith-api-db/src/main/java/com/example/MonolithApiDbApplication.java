@@ -4,9 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MonolithDbApplication {
+public class MonolithApiDbApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MonolithDbApplication.class, args);
+        SpringApplication.run(MonolithApiDbApplication.class, args);
     }
 }
