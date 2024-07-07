@@ -2,7 +2,7 @@
   <Billboard />
 </template>
 
-<script>
+<script lang="ts">
 // Import the Billboard component
 import Billboard from './components/BillboardComponent.vue'
 

@@ -5,13 +5,13 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 export default {
   name: 'BillboardComponent',
   data() {
     return {
       message: '',
-      intervalId: null // To store the interval ID
+      intervalId: 0 // To store the interval ID
     }
   },
   mounted() {
